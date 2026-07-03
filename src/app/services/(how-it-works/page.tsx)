@@ -1,0 +1,16 @@
+export default function HowItWorks() {
+  return (
+    <div className="space-y-10 max-w-3xl mx-auto py-10">
+      <h2 className="text-4xl text-[#b89a65] font-serif border-b border-[#b89a65] pb-4">
+        Metodologia de Trabalho
+      </h2>
+      <ol className="space-y-6 text-gray-300 font-serif text-lg">
+        <li className="border-b border-[#0b1a2a] pb-2">1. Solicitação de análise técnica.</li>
+        <li className="border-b border-[#0b1a2a] pb-2">2. Triagem inicial e viabilidade pericial.</li>
+        <li className="border-b border-[#0b1a2a] pb-2">3. Contratação e definição de escopo.</li>
+        <li className="border-b border-[#0b1a2a] pb-2">4. Execução minuciosa das diligências.</li>
+        <li className="border-b border-[#0b1a2a] pb-2">5. Emissão de parecer técnico conclusivo.</li>
+      </ol>
+    </div>
+  );
+}
