@@ -1,0 +1,15 @@
+export default function Contact() {
+  return (
+    <div className="space-y-8 py-10 max-w-xl">
+      <h2 className="text-4xl text-[#b89a65] font-serif">Contato</h2>
+      <form className="space-y-4">
+        <input className="w-full p-3 bg-[#050a14] border border-[#b89a65] text-white" placeholder="Nome completo" />
+        <input className="w-full p-3 bg-[#050a14] border border-[#b89a65] text-white" placeholder="Tipo de demanda (Ex: Grafotecnia)" />
+        <textarea className="w-full p-3 bg-[#050a14] border border-[#b89a65] text-white h-32" placeholder="Resumo técnico do caso" />
+        <button className="w-full py-4 bg-[#b89a65] text-[#050a14] font-bold uppercase tracking-wider">
+          Enviar para Análise Pericial
+        </button>
+      </form>
+    </div>
+  );
+}
