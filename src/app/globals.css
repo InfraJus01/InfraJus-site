@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Azul marinho profundo, quase violeta/escuro */
+  background-color: #050a14; 
+  color: #f0f0f0;
+  font-family: 'Times New Roman', serif; /* Fonte com serifa para passar nobreza */
+}
+
+/* Variáveis para facilitar o ajuste do dourado/ouro velho */
+@layer base {
+  :root {
+    --gold: #b89a65; /* Ouro envelhecido, mais sóbrio */
+  }
+}
