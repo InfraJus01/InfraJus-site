@@ -1,0 +1,15 @@
+export default function Portal() {
+  return (
+    <div className="space-y-6 py-10">
+      <h2 className="text-4xl text-[#b89a65] font-serif">Portal do Cliente</h2>
+      <div className="border border-[#b89a65] p-8 bg-[#0a1520]">
+        <p className="text-gray-300">
+          Acesso restrito para acompanhamento de diligências, status de laudos e troca segura de evidências.
+        </p>
+        <button className="mt-6 px-8 py-3 bg-[#b89a65] text-[#050a14] font-bold uppercase tracking-wider">
+          Acessar Sistema
+        </button>
+      </div>
+    </div>
+  );
+}
